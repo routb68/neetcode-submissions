@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<string>>ans;
-    bool ispali(string s, int l, int r){
+    bool ispali(string &s, int l, int r){
         while(r>l){
             if(s[l]!=s[r]) return false;
             ++l;
